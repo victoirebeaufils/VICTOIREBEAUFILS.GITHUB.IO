@@ -169,6 +169,7 @@ span {
   background-color: #8229fd;
   color: white;
   text-align: center;
+  padding:15px;
 }
 .project-logo{
  -webkit-filter: brightness(100%);
@@ -198,4 +199,13 @@ span {
 .project-caption {
   color: white;
   font-size: 20px;
+}
+.social-media-link{
+  color:inherit;
+  -webkit-filter: brightness(100%);
+}
+.social-media-link:hover{
+  color:inherit;
+  -webkit-filter: brightness(70%);
+
 }
