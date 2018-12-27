@@ -209,3 +209,7 @@ span {
   -webkit-filter: brightness(70%);
 
 }
+.tag{
+  background-color: #414141;
+  color:white;
+}
