@@ -75,7 +75,9 @@ body>* {
   background: #A149A6;
   color: #fff;
 }
-
+.description button:hover{
+  background-color: #652f68;
+}
 .article-container {
   margin: 50px;
 }
@@ -203,6 +205,7 @@ span {
 .social-media-link{
   color:inherit;
   -webkit-filter: brightness(100%);
+  margin:0px 10px 0px;
 }
 .social-media-link:hover{
   color:inherit;
@@ -220,4 +223,14 @@ span {
 .see-project:hover{
   background-color: #600faa;
   color:white;
+}
+.flag-icon{
+  margin:0px 10px 0px;
+}
+.browse-content{
+  color:inherit;
+}
+.browse-content:hover{
+  color:white;
+  text-decoration: none;
 }
