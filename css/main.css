@@ -166,7 +166,7 @@ span {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #8229fd;
+  background-color: #414141;
   color: white;
   text-align: center;
   padding:15px;
@@ -211,5 +211,13 @@ span {
 }
 .tag{
   background-color: #414141;
+  color:white;
+}
+.see-project{
+  background-color:#8229fd;
+  color:white;
+}
+.see-project:hover{
+  background-color: #600faa;
   color:white;
 }
