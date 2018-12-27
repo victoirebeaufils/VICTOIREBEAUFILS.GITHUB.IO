@@ -1,5 +1,5 @@
-$(document).ready(function(){
- $('.header').height($(window).height());
+//$(document).ready(function(){
+ //$('.header').height($(window).height());
 
  $(".navbar a").click(function(){
  	$("body,html").animate({
@@ -8,4 +8,6 @@ $(document).ready(function(){
 
  })
 
-})
+ $(function () {
+   $('[data-toggle="tooltip"]').tooltip()
+ })
