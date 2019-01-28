@@ -14,6 +14,9 @@ cube1.position.set(0, 0, 0);
 cube1.rotateX(Math.PI/2);
 */
 // Create a scene which will hold all our meshes to be rendered
+
+var video;
+
 var scene = new THREE.Scene();
 
 // Create and position a camera
@@ -25,7 +28,7 @@ var camera = new THREE.PerspectiveCamera(
 );
 
 // Reposition the camera
-camera.position.set(70,2,30);
+camera.position.set(70,0,30);
 
 // Point the camera at a given coordinate
 camera.lookAt(new THREE.Vector3(0,15,0))
@@ -73,7 +76,7 @@ scene.add( groundMesh );
 
 
 //Un cube1
-var geometry = new THREE.BoxGeometry( 1, 5, 3 );
+var geometry = new THREE.BoxGeometry( 1, 7, 10 );
 var material = new THREE.MeshBasicMaterial( {color: 0x020d14} );
 var texture = new THREE.TextureLoader().load( "stare.jpg" );
 
@@ -111,7 +114,7 @@ cube1.position.set(-18.75/2, height/2, -10.8/2);
 cube1.rotateY(-Math.PI/6);
 
 //Un cube2
-var geometry2 = new THREE.BoxGeometry( 1, 5, 3 );
+var geometry2 = new THREE.BoxGeometry( 1, 7, 10 );
 var material2 = new THREE.MeshBasicMaterial( {color: 0x020d14} );
 var cube2 = new THREE.Mesh( geometry2, material2 );
 var height = cube2.geometry.parameters.height;
@@ -121,7 +124,7 @@ scene.add( cube2 );
 
 
 //Un cube3
-var geometry3 = new THREE.BoxGeometry( 1, 5, 3 );
+var geometry3 = new THREE.BoxGeometry( 1, 7, 10 );
 var material3 = new THREE.MeshBasicMaterial( {color: 0x020d14} );
 var cube3 = new THREE.Mesh( geometry3, material3 );
 var height = cube3.geometry.parameters.height;
