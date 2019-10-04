@@ -13,6 +13,7 @@ body>* {
 
 .navbar {
   background: #white;
+  
 }
 
 .nav-link, .navbar-brand {
@@ -325,4 +326,20 @@ ul.timeline > li:before {
 }
 .navbar-webule{
   background-color:black;
+
+}
+.breadcrumb{
+  padding:20px;
+  margin:20px;
+  background-color:white;
+}
+.breadcrumb-item > a{
+  text-decoration: none;
+  color:grey;
+}
+.breadcrumb-item>a:hover{
+  color:black;
+}
+.bg-dark {
+  background-color: rgba(0, 0, 0)!important;
 }
